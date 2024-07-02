@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Tech Goals</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header data-testid="header">
+    <h1>My Tech Goal</h1>
+  </header>
+  <section class="profile">
+    <h1 data-testid="slackDisplayName">Cyrus Rey</h1>
+    <img data-testid="slackProfilePicture" src="img/Profile.jpg" alt="Profile Picture">
+    <div>
+      <p data-testid="slackEmail">cyrusrey42@gmail.com</p>
+      <p>Current Time (UTC): <span data-testid="currentTimeUTC"></span></p>
+      <p>Today is: <span data-testid="currentDay"></span></p>
+    </div>
+  </section>
+  <main>
+    <div class="goal" data-testid="goal-1">
+      <h2 data-testid="goal-1-title">Improve my coding skills</h2>
+      <p data-testid="goal-1-content">
+        Over the next 2 years, I plan to:
+        <ul>
+          <li>Learn a new programming language (e.g., Python or Rust)</li>
+          <li>Contribute to open-source projects on GitHub</li>
+          <li>Participate in coding challenges and hackathons</li>
+        </ul>
+      </p>
+    </div>
+    <div class="goal" data-testid="goal-2">
+      <h2 data-testid="goal-2-title">Develop a mobile application</h2>
+      <p data-testid="goal-2-content">
+        My goal is to create a mobile app that solves a problem I'm passionate about. I'll start by:
+        <ul>
+          <li>Researching existing apps and identifying areas for improvement</li>
+          <li>Learning the basics of mobile app development (either iOS or Android)</li>
+          <li>Prototyping and testing my app idea with potential users</li>
+        </ul>
+      </p>
+    </div>
+    <div class="goal" data-testid="goal-3">
+      <h2 data-testid="goal-3-title">Expand my knowledge in data science</h2>
+      <p data-testid="goal-3-content">
+        I'm interested in using data to drive decision-making. In the next 2 years, I plan to:
+        <ul>
+          <li>Take online courses in data analysis, machine learning, and data visualization</li>
+          <li>Work on personal data science projects to apply what I've learned</li>
+          <li>Attend local data science meetups and conferences</li>
+        </ul>
+      </p>
+    </div>
+    <section class="links">
+        <a data-testid="hngLink" href="https://hng.tech/learn">HNG Learn</a>
+        <a data-testid="keywordLink" href="https://keyword.dog">Keyword Dog</a>
+        <a data-testid="scrapeanywebLink" href="https://scrapeanyweb.site">Scrape Any Web</a>
+      </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
